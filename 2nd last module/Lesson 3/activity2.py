@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 window = Tk()
-window.title("Virys Detected")
+window.title("Virus Detected")
 window.geometry("200x200")
 def msg():
     messagebox.showwarning("Alert","Stop!Virus Found.")

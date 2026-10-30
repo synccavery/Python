@@ -1,0 +1,10 @@
+from tkinter import *
+from tkinter import messagebox
+window = Tk()
+window.title("After School Project")
+window.geometry("300x300")
+def handle_keypress(event):
+    print("Key pressed:", event.char)
+    key_label.config(text=f"Last Character Typed: {event.char}")
+def handle_mouse_click(event):
+    print("The mouse is clicked")
